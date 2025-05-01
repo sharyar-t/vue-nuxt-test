@@ -1,0 +1,18 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "title": "Home",
+      "slug": "home",
+      "keywords": ["home", "welcome"],
+      "content": "Welcome to the home page!"
+    },
+    {
+      "id": 2,
+      "title": "About",
+      "slug": "about",
+      "keywords": ["about", "info"],
+      "content": "This is the about page."
+    }
+  ]
+}
