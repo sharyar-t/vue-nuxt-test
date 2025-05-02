@@ -4,8 +4,12 @@ import App from './App.vue'
 Vue.config.productionTip = false
 
 import router from './plugins/router'
+import store from './plugins/store'
+import vuetify from './plugins/vuetify'
 
 new Vue({
   router,
-  render: h => h(App),
+  store,
+  vuetify,
+  render: h => h(App)
 }).$mount('#app')
