@@ -6,7 +6,9 @@
 
     <v-main>
       <v-container>
-        <RouterView />
+        <v-fade-transition hide-on-leave leave-absolute>
+          <RouterView />
+        </v-fade-transition>
       </v-container>
     </v-main>
   </v-app>
