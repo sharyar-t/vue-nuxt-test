@@ -1,3 +1,6 @@
 <template>
-  <div>edit</div>
+  <div>
+    <AppPageBack />
+    <AppPageTitle title="Edit page"></AppPageTitle>
+  </div>
 </template>

@@ -7,6 +7,8 @@ import router from './plugins/router'
 import store from './plugins/store'
 import vuetify from './plugins/vuetify'
 
+import './plugins/globalComponents'
+
 new Vue({
   router,
   store,
