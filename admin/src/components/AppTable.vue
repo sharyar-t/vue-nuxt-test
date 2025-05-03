@@ -1,5 +1,8 @@
 <template>
-  <v-data-table v-bind="$attrs" v-on="$listeners" hide-default-footer>
+  <v-data-table v-bind="$attrs" v-on="$listeners" hide-default-footer :items-per-page="-1">
+    <template #top="{ item }">
+      <slot name="top" :item="item"></slot>
+    </template>
     <template #[`item.slug`]="{ item }">
       <slot name="slug" :item="item"></slot>
     </template>
