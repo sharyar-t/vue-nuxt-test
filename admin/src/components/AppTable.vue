@@ -1,5 +1,5 @@
 <template>
-  <v-data-table v-bind="$attrs" v-on="$listeners" hide-default-footer :items-per-page="-1">
+  <v-data-table v-bind="$attrs" v-on="$listeners">
     <template #top="{ item }">
       <slot name="top" :item="item"></slot>
     </template>

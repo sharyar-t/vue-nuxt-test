@@ -1,11 +1,9 @@
 import api from '../../../libs/api'
 
-export const getAll = async ({ page }) => {
-  const response = await api.get('/pages', { _page: page, _per_page: 2 })
+export const getAll = async () => {
+  const { data } = await api.get('/pages')
 
-  console.log('getAll', response)
-
-  return response.data
+  return data
 }
 
 export const getOne = async (id) => {

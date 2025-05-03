@@ -118,7 +118,6 @@ export default {
       ],
       deleteId: null,
       deleteDialog: false,
-      currentPage: 0
     }
   },
   mounted() {
@@ -126,8 +125,7 @@ export default {
   },
   methods: {
     getData() {
-      console.log('Fetching data for page:', this.currentPage)
-      getAll({ page: this.currentPage }).then((response) => {
+      getAll().then((response) => {
         this.data = response
       })
     },
@@ -151,7 +149,6 @@ export default {
               text: 'Page deleted successfully',
               type: 'success',
             })
-            this.currentPage = 0
             this.getData()
           }
         })
