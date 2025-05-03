@@ -44,7 +44,7 @@ This will start:
 ## Usage
 
 - To manage Pages (create, read, update, delete), visit the Admin Panel: 👉 http://localhost:8080
-- To view all generated Pages from the API, open your browser at: 👉 http://localhost:3001/pages
+- To view all generated Pages from the API, open your browser at: 👉 http://localhost:3001
 
 ## Project Structure
 
