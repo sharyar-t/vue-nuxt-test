@@ -38,8 +38,8 @@ npm start
 
 This will start:
  - Vue 2 Admin Panel at http://localhost:8080
- - Nuxt 3 Client App at http://localhost:3001
- - JSON Server API at http://localhost:3000
+ - Nuxt 3 Client App at http://localhost:3000
+ - JSON Server API at http://localhost:4000
 
 ## Usage
 

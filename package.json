@@ -6,7 +6,7 @@
     "start": "concurrently \"npm run start:admin\" \"npm run start:client\" \"npm run start:db\"",
     "start:admin": "cd admin && npm install && npm run serve",
     "start:client": "cd client && npm install && npm run dev",
-    "start:db": "json-server --watch db.json --port 3000"
+    "start:db": "json-server --watch db.json --port 4000"
   },
   "keywords": [],
   "author": "",
